@@ -1,0 +1,68 @@
+<html>
+<head>
+	<title>Connect Us Contact Manager</title>
+	<script type="text/javascript" src="js/code.js"></script>
+    <link href="css/styles.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+	<script type="text/javascript">
+	document.addEventListener('DOMContentLoaded', function()
+	{
+		readCookie();
+	}, false);
+	</script>
+
+</head>
+<body>
+
+<div id="header">
+
+	<div id="headerLeft">
+		<span id="userName"></span>
+	</div>
+
+	<div id="headerRight">
+			<button type="button" id="logoutButton" class="button" onclick="doLogout();">
+				<ion-icon name="log-out"></ion-icon>
+			</button>
+	</div>
+
+        <br></br>
+
+	<div id="headerLeft">
+		<input type="text" id="searchText" onkeypress="if(event.keyCode == 13) {searchContact()}" placeholder="Search"/>
+	</div>
+
+	<div id="headerRight">
+		<button type="button" id="searchContactButton" class="button" onclick="searchContact();">
+			<ion-icon name="search"></ion-icon>
+		</button><br />
+	</div>
+
+</div>
+
+<div id="accessUIDiv">
+
+	<span id="contactSearchResult"></span>
+
+	<div id="contactListDiv">
+		<p id="contactList"><script type="text/javascript">readCookie();searchContact();</script></p>
+	</div>
+
+	<input type="text" id="contactText" onkeypress="if(event.keyCode == 13) {addContact()}" placeholder="Contact Name">
+	<input type="text" id="phoneNumber" onkeypress="if(event.keyCode == 13) {addContact()}" placeholder="Phone Number" /><br />
+  <input type="text" id="email" onkeypress="if(event.keyCode == 13) {addContact()}" placeholder="Email" /><br />
+	<button type="button" id="addContactButton" class="button" onclick="addContact();">
+		 Add Contact <ion-icon name="person-add"></ion-icon>
+	</button><br />
+
+	<span id="contactAddResult"></span>
+
+</div>
+
+
+<script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

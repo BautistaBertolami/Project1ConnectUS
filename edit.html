@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>Connect Us Contact Manager</title>
+	<script type="text/javascript" src="js/md5.js"></script>
+	<script type="text/javascript" src="js/code.js"></script>
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+<body>
+
+	<!-- <h1 id="title1">Connect Us Editor</h1> -->
+	<div id="editDiv">
+		<!-- <span id="inner-title">Edit Name, Number, Email</span> -->
+		<table id="editTable">
+			<tr>
+				<td>
+					<span id="name" class="text"></span>
+				</td>
+				<td>
+					<input type="text" id="fullName" onkeypress="if(event.keyCode == 13) {editPage(localStorage['id'])}" value="" placeholder="Name" /><br />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span id="number" class="text"></span>
+				</td>
+				<td>
+					<input type="text" id="Phonenumber" onkeypress="if(event.keyCode == 13) {editPage(localStorage['id'])}" value="" placeholder="Phone Number" /><br />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span id="emailDisp" class="text"></span>
+				</td>
+				<td>
+					<input type="text" id="Email" onkeypress="if(event.keyCode == 13) {editPage(localStorage['id'])}" value="" placeholder="Email" /><br />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span id="editResult"></span>
+				</td>
+				<td>
+					<button type="button" id="returnButton" class="buttons" onclick="window.location.href = 'contact.html';"> Cancel </button>
+					<button type="button" id="editButton2" class="buttons" onclick="editPage(localStorage['id']);"> Save </button>
+				</td>
+			</tr>
+		</table>
+
+	</div>
+
+	<script type="text/javascript">var id = localStorage["id"]; editButton(id);</script>
+
+</body>
+</html>

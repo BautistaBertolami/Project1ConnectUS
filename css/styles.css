@@ -1,0 +1,316 @@
+body
+{
+background-image: url('https://www.tokkoro.com/picsup/5436435-space-station-wallpapers.jpg');}
+
+#title
+{
+    font-size: 40px;
+    down:  100px;
+	  border-radius: 10px;
+    width: 40%;
+	  height: 20%;
+    margin: auto;
+    text-align: center;
+	  background-color: none;
+    font-family: 'Lato', sans-serif;
+    color: #FFFFFF;
+}
+
+#title1
+{
+    font-size: 40px;
+    width: 100%;
+    margin: 3% auto;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #FFFFFF;
+}
+
+#loginDiv
+{
+    font-size: 20px;
+    border-radius: 10px;
+    width: 35%;
+    height: 20%;
+    margin: auto;
+    padding: 25px;
+    background-color: none;
+}
+
+#registerDiv
+{
+    border-radius: 10px;
+    font-size: 30px;
+    width: 50%;
+    margin: auto;
+    margin-top: 3%;
+    padding: 40px;
+    background-color: #f2f2f2;
+}
+
+#editDiv
+{
+
+    font-size: 30px;
+    width: 60%;
+    margin:auto;
+    margin-top: 8%;
+    padding-top: 2%;
+    padding-bottom: auto;
+    background-color: #f2f2f2;
+    align: center;
+    height: 60%;
+    border-radius: 40px;
+}
+
+#loggedInDiv
+{
+    font-size: 30px;
+    width: 100%;
+    padding: 25px;
+    background-color: #b2b2b2;
+}
+
+#accessUIDiv
+{
+    font-size: 30px;
+    width: 80%;
+    margin-left: 8%;
+    padding: 25px;
+    background-color: #f2f2f2;
+    border-bottom-left-radius: 40px;
+  	border-bottom-right-radius: 40px;
+}
+
+.buttons
+{
+    font-size: 20px;
+    border-radius: 25px;
+    width: 30%;
+    margin-left: 13%;
+    font-family: 'Lato', sans-serif;
+    background-color: #ccf0cc;
+    /* color: #FFFFFF; */
+}
+
+.button
+{
+    font-size: 30px;
+    border-radius: 25px;
+    width: 50%;
+    margin-left: 25%;
+    font-family: 'Lato', sans-serif;
+}
+
+.buttons:hover{
+    background-color: #00d5124f;
+    /* color: #FFFFFF; */
+    opacity: 50%;
+}
+.text
+{
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+}
+#email
+{
+  font-size: 30px;
+}
+
+#fullName
+{
+	font-size: 30px;
+}
+#firstName
+{
+	font-size: 30px;
+}
+#lastName
+{
+	font-size: 30px;
+}
+#loginName
+{
+	font-size: 30px;
+}
+#loginPassword
+{
+	font-size: 30px;
+}
+#searchText
+{
+  width: 89%;
+  margin-left: 11%;
+	font-size: 30px;
+}
+#contactText
+{
+	font-size: 30px;
+}
+#PhoneNumber
+{
+	font-size: 30px;
+}
+#Email
+{
+	font-size: 30px;
+}
+
+input[type="text"],input[type="password"]{
+    border-radius: 25px;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    font-family: 'Lato', sans-serif;
+}
+
+#inner-title{
+    display: inline-block;
+    font-size: 0.8em;
+    width: 100%;
+    text-align: center;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    font-family: 'Lato', sans-serif;
+    color: #95060a;
+}
+
+#loginResult{
+    display: inline-block;
+    font-size: 0.8em;
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    font-family: 'Lato', sans-serif;
+    color: #95060a;
+}
+
+#userName{
+    display: inline-block;
+    /* color: grey; */
+    width: 80%;
+    margin-left: 10%;
+    font-family: 'Lato', sans-serif;
+    /* font-size: 50px; */
+}
+
+#logoutButton{
+    width: 70px;
+    height: 70px;
+    color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #8b0000;
+    outline-color: red;
+    border-radius: 100%;
+    background-color: red;
+}
+
+select{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 2%;
+    font-size: 0.75em;
+    font-family: 'Lato', sans-serif;
+}
+
+#editTable
+{
+  margin: auto;
+  margin-top: 4%;
+}
+#contactSearchResult{
+  display: none;
+}
+
+#contactAddResult{
+    display: inline-block;
+    font-size: 0.8em;
+    width: 90%;
+    text-align: center;
+    margin-right: 50%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-family: 'Lato', sans-serif;
+    color: #95060a;
+}
+
+#header{
+    margin-top: 4%;
+    margin-left: 8%;
+    display: inline-block;
+    font-size: 30;
+    width: 80%;
+    padding: 25px;
+    border-top-left-radius: 40px;
+  	border-top-right-radius: 40px;
+    background-color: #a3e3ff;
+    text-align: left;
+}
+
+#headerRight{
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+}
+
+#headerLeft{
+  width: 90%;
+  display: inline-block;
+  text-align: left;
+}
+
+#searchContactButton{
+  width: 70px;
+  height: 70px;
+  color: white;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #00008b;
+  outline-color: blue;
+  border-radius: 100%;
+  background-color: blue;
+}
+
+#addContactButton{
+  height: 50px;
+  color: white;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #006400;
+  background-color: #4fce5d;
+}
+
+#deleteButton{
+  font-size: 20px;
+  color: white;
+  height: 26px;
+  width: 36px;
+  background-color: red;
+}
+
+#editButton{
+  font-size: 20px;
+  color: white;
+  height: 26px;
+  width: 36px;
+  background-color: blue;
+}
+
+#contactListDiv{
+  margin-top: -30px;
+  height: auto;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+#contactList{
+  max-height: 60%;
+  overflow-y: scroll;
+}
+
+#results{
+  font-size: 30px;
+}

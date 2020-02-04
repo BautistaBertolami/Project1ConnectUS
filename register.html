@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>Connect Us Contact Manager</title>
+	<script type="text/javascript" src="js/md5.js"></script>
+	<script type="text/javascript" src="js/code.js"></script>
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+<body>
+
+<h1 id="title">Connect Us Contact Manager</h1>
+
+<div id="registerDiv">
+  <input type="text" id="firstName" onkeypress="if(event.keyCode == 13) {newUser()}" placeholder="FirstName" /><br />
+  <input type="text" id="lastName" onkeypress="if(event.keyCode == 13) {newUser()}" placeholder="LastName" /><br />
+	<input type="text" id="loginName" onkeypress="if(event.keyCode == 13) {newUser()}" placeholder="Username" required /><br />
+	<input type="password" id="loginPassword" onkeypress="if(event.keyCode == 13) {newUser()}" placeholder="Password" required /><br />
+	<button type="button" id="loginButton" class="buttons" onclick="window.location='index.html'"> Login </button>
+  <button type="button" id="registerButton" class="buttons" onclick="newUser()"> Sign Up </button>
+  <br>
+	<span id="userAddResult"></span>
+</div>
+
+</body>
+</html>
