@@ -15,4 +15,6 @@ contact.html - main screen of the website
 
 edit.html - page for when a user edits a contact
 
-index.html - main log in screen of the website
+index.html - log in screen of the website
+
+register.html - sign up screen of the website
